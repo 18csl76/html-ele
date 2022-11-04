@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    button{
+        display: block;
+        cursor: pointer;
+        margin: 10px;
+        background-color: red;
+        color: white;
+        border: 1px solid red;
+        padding: 10px;
+    }
+    button:hover{
+        background-color: white;
+        color: red;
+    }
+    
+    .styled:hover{
+        background-color: white;
+        color: red;
+    }
+    .rounded{
+        border-radius: 20px;
+    }
+    .fullwidth{
+        width: 99%;
+    }
+    .gradient{
+        background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+        color:white;
+    }
+    .gradient:hover{
+        background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+        color: white;
+    }
+    .fa-facebook{
+        margin: 10px;
+        background-color: blue;
+        color: white;
+        padding: 10px;
+        font-size: 20px;
+    }
+    .fa-facebook:hover{
+        background-color: blueviolet;
+    }
+    .flex{
+        display: flex;
+        justify-content: space-around;
+    }
+    table{
+        border-collapse: collapse;
+    }
+    td,th{
+        padding: 10px;
+    }
+    thead{
+        background-color: black;
+        color: white;
+    }
+    tbody{
+        background-color: #ffff1a;
+    }
+    tr{
+        border-bottom: 1px solid blue;
+    }
+</style>
+<body>
+    <button class="styled">Styled Button</button>
+    <button class="rounded">Rouded Button</button>
+    <button class="rounded fullwidth">Rounded FullWidth</button>
+    <button class="gradient fullwidth">Gradient Background</button>
+    <button><i class="fa fa-home"></i></button>
+    <button><i class="fa fa-home"></i> Icon Button</button>
+    
+    <a href="#" class="fa fa-facebook"></a><br><br>
+    
+    <img src="img/1.jpg" height="400px" width="400px" alt="img">
+    
+    <br><br><a href="#">Home</a>
+
+    <h1>heading1...</h1>
+    <h2>heading2...</h2>
+    <h3>heading3...</h3>
+    <h6>heading6...</h6>
+    <p>Paragraph</p>
+    
+    <div>
+        <p>Paragraph Inside Div</p>
+    </div>
+    
+    <div class="flex">
+        <h1>Div Flex Box</h1>
+        <h1>Second Element</h1>
+    </div>
+
+    <u><h1>Underlined using u tag</h1></u>
+
+    <b><p>Bold using b tag</p></b><br><br>
+
+    <hr><p>Horizontal line using hr tag</p><br><br>
+
+    <h3>Ordered List</h3>
+    <ol type="a">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <h3>Unordered List</h3>
+    <ul style="list-style-type:square;">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+
+      <br><br><h3>Iframe</h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/xcJtL7QggTI"></iframe>
+
+
+      <h3>Form Elements</h3>
+      <form action="">
+      Text Box : <input type="text"><br><br>
+      Input with placeholder : <input type="text" placeholder="placeholder"><br><br>
+      Textarea : <br><textarea cols="30" rows="10"></textarea><br><br>
+      Checkbox : <input type="checkbox"><br><br>
+      Radio : <input type="radio" name="gender">Male <input type="radio" name="gender">Female <br><br>
+      Drowpdown : <select name="drop">
+        <option value="opt1">Option 1</option>
+        <option value="opt2">Option 2</option>
+        <option value="opt3">Option 3</option>
+      </select><br><br>
+      <input type="reset" value="Reset Button">
+      <input type="submit" value="Submit Button">
+    </form>
+
+      <br><h3>Table</h3>
+      <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Harshit</td>
+                <td>22</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>Vineeth</td>
+                <td>21</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>Alok</td>
+                <td>23</td>
+                <td>Female</td>
+            </tr>
+        </tbody>
+      </table><br><br>
+
+      Progress Bar <progress value="32" max="100"> 32% </progress><br><br>
+
+
+</body>
+</html>
